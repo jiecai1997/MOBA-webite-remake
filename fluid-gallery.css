@@ -1,0 +1,82 @@
+body {
+}
+
+h3{
+  color:black;
+}
+
+.mask h3{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+.container.gallery-container {
+    background-color: #fff;
+    color: black;
+    min-height: 100vh;
+    padding: 30px 0px;
+}
+
+.tz-gallery {
+  line-height: 0;
+
+  -webkit-column-count: 3;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    3;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           0px;
+}
+
+.lightbox title{
+  padding: 30px 0px;
+}
+
+@media (max-width: 768px){
+  .tz-gallery {
+    line-height: 0;
+
+    -webkit-column-count: 2;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    2;
+    -moz-column-gap:      0px;
+    column-count:         2;
+    column-gap:           0px;
+  }
+}
+
+@media (max-width: 576px){
+  .tz-gallery {
+    line-height: 0;
+
+    -webkit-column-count: 1;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    1;
+    -moz-column-gap:      0px;
+    column-count:         1;
+    column-gap:           0px;
+  }
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 0px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}

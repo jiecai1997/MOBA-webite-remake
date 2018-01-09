@@ -1,0 +1,188 @@
+/*
+overall body
+*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-underline-position: under;
+  letter-spacing: 0.7px;
+  font-weight: normal;
+}
+
+a{
+  color:#888888;
+}
+
+a:hover{
+  color:#888888;
+  text-decoration: underline;
+}
+
+.view{
+  height:30
+}
+
+/*
+specific to MOBA content
+*/
+.moba-highlight:hover{
+  color:red;
+}
+
+.soft-highlight:hover{
+  color:#333333;
+}
+
+.collections{
+  color:black;
+  padding-top: 16%;
+  padding-bottom: 16%;
+  letter-spacing: 1.0px;
+  -webkit-transition: .3s ease-in-out opacity;
+  -moz-transition: .3s ease-in-out opacity;
+  -o-transition: .3s ease-in-out opacity;
+  transition: .3s ease-in-out opacity;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.collections:hover{
+  text-decoration: underline;
+}
+/*
+specific to pages
+*/
+#main-title{
+  font-family: 'Gloria Hallelujah', cursive;
+  background-color: transparent;
+  padding: 70px 100px;
+  margin-top: 0px;
+}
+
+.small-title{
+  font-family: 'Gloria Hallelujah', cursive;
+  letter-spacing: 1.0px;
+  margin: 80px 0px;
+}
+
+.descriptions{
+  margin-bottom: 50px;
+}
+
+
+#image-pad{
+  background-color: black;
+}
+
+#gallery{
+  width:100%;
+}
+
+/*
+general bootstrap modifications
+ordered top to bottom
+*/
+
+/*navigation bar*/
+.navbar{
+  margin:0px 0px;
+  padding:10px 0px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: none;
+  font-weight: lighter;
+}
+
+.navbar-brand{
+  color:black;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-size: 28px;
+}
+
+.navbar-nav li a{
+  color:black;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.navbar-nav li .active{
+  text-decoration: underline;
+}
+
+.navbar-nav li a:hover{
+  background: rgba(255, 255, 255, 1);
+  text-decoration: underline;
+}
+
+.navbar-nav img:hover{
+  -moz-transform: translate(0px, -2px);
+  -ms-transform: translate(0px, -2px);
+  -o-transform: translate(0px, -2px);
+  -webkit-transform: translate(0px, -2px);
+  transform: translate(0px, -2px)
+}
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+.navbar .dropdown-menu{
+  box-shadow: none;
+}
+
+@media (max-width: 767px){
+  .navbar .dropdown-menu{
+    position:relative!important;
+  }
+}
+
+.dropdown-menu li{
+  padding:5px 0px;
+}
+
+.navbar .dropdown-menu a{
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.navbar .dropdown-menu a:hover{
+  color:black!important;
+}
+
+
+/*alert banners*/
+.alert{
+  border-radius: 0 !important;
+  border-top-width: thin;
+  border-bottom-width: thin;
+  border-left: none;
+  border-right:none;
+  border-color: black;
+  padding: 20px 20px;
+  margin:0px;
+  background-color: #ffffff;
+  color:black;
+  font-weight:lighter;
+}
+
+/*buttons*/
+.btn{
+  margin: 12px 0px;
+  border-color: black;
+  background-color: transparent;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.btn:hover{
+  background-color: transparent;
+  border-color: black;
+  text-decoration: underline;
+}
+
+
+/*col*/
+.col-sm-6{
+  padding:0px 30px;
+}
